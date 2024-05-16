@@ -16,10 +16,10 @@ This repository contains a Python solution for the Unique Integers assignment, a
 2. **Open the input file.**
 
 3. **For each line in the input file:**
-     a. Remove any leading and trailing whitespaces from the line.
-     b. Check if the line is not empty:
-          i. Attempt to convert the line to an integer.
-          ii. If the conversion is successful and the integer falls within the range -1023 to 1023:
+     - Remove any leading and trailing whitespaces from the line.
+     - Check if the line is not empty:
+          - Attempt to convert the line to an integer.
+          - If the conversion is successful and the integer falls within the range -1023 to 1023:
                - Add the integer to a set of unique integers.
                - This range is chosen because it encompasses the expected range of integers according to the problem description.
                - Using a set ensures that only unique integers are stored, avoiding duplicates.
