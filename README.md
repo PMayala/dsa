@@ -9,6 +9,31 @@ This repository contains a Python solution for the Unique Integers assignment, a
 - **File Organization:** Organizes code and sample data according to assignment guidelines.
 - **Documentation:** Provides internal documentation within the code for clarity and understanding.
 
+## Algorithm
+
+1. **Initialize a boolean array named "seen" to keep track of seen integers from -1023 to 1023.**
+
+2. **Open the input file.**
+
+3. **For each line in the input file:**
+     a. Remove any leading and trailing whitespaces from the line.
+     b. Check if the line is not empty:
+          i. Attempt to convert the line to an integer.
+          ii. If the conversion is successful and the integer falls within the range -1023 to 1023:
+               - Add the integer to a set of unique integers.
+               - This range is chosen because it encompasses the expected range of integers according to the problem description.
+               - Using a set ensures that only unique integers are stored, avoiding duplicates.
+
+4. **Open the output file.**
+     - This file will store the unique integers extracted from the input file.
+
+5. **Write the unique integers from the set to the output file in sorted order.**
+     - Sorting ensures that the integers are written in ascending order, as required by the problem statement.
+     - Writing the integers to the output file one by one ensures that each integer is written on a separate line.
+
+6. Close both the input and output files.
+     - Closing the files is important to release system resources and ensure proper file handling.
+
 ## Usage
 
 1. **Clone the Repository:** Clone or download the repository to your local machine.
