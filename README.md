@@ -22,7 +22,7 @@ This repository contains a Python solution for the Unique Integers assignment, a
 
 ## File Structure
 
-- **UniqueInt.py:** Main Python script containing the solution code.
+- **code/src/UniqueInt.py:** Main Python script containing the solution code.
 - **sample_inputs/:** Directory containing sample input files.
 - **sample_results/:** Directory containing corresponding sample output files.
 - **README.md:** This README file providing an overview of the project.
