@@ -4,7 +4,7 @@ This repository contains a Python solution for the Unique Integers assignment, a
 
 ## Features
 
-- **Input Handling:** Reads integers from input files with support for various formats.
+- **Input Handling:** Reads integers from input files with support for various formats, including optional leading/trailing whitespace, empty lines, multiple integers per line, and non-integer inputs.
 - **Unique Integer Generation:** Generates output files with sorted unique integers.
 - **File Organization:** Organizes code and sample data according to assignment guidelines.
 - **Documentation:** Provides internal documentation within the code for clarity and understanding.
@@ -15,17 +15,17 @@ This repository contains a Python solution for the Unique Integers assignment, a
 2. **Navigate to Project Directory:** Open a terminal or command prompt and navigate to the project directory.
 3. **Run the Script:** Execute the Python script `UniqueInt.py`, providing appropriate input and output file paths as arguments.
 
-Example:
-```bash
-python UniqueInt.py input.txt output.txt
-
+   Example:
+   ```bash
+   python UniqueInt.py input_file.txt output_file.txt
+   ```
 
 ## File Structure
 
-- **`UniqueInt.py`:** Main Python script containing the solution code.
-- **`sample_inputs/`:** Directory containing sample input files.
-- **`sample_results/`:** Directory containing corresponding sample output files.
-- **`README.md`:** This README file providing an overview of the project.
+- **UniqueInt.py:** Main Python script containing the solution code.
+- **sample_inputs/:** Directory containing sample input files.
+- **sample_results/:** Directory containing corresponding sample output files.
+- **README.md:** This README file providing an overview of the project.
 
 ## Sample Input
 
@@ -42,3 +42,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 This assignment is part of the curriculum for Enterprise Web Development courses, aimed at practicing file handling, data manipulation, and algorithmic problem-solving skills.
+
+## Improvements
+
+- **Error Handling:** Improve error handling for invalid input files, such as missing input files or unsupported file formats.
+- **Testing:** Implement automated testing for the solution code, ensuring consistent results for various input files.
+- **Code Optimization:** Optimize the solution code for performance, reducing memory usage and execution time.
+- **Documentation:** Add additional documentation for the solution code, including comments and docstrings.
+- **Code Style:** Improve code style and formatting, adhering to PEP 8 guidelines.
+- **Additional Features:** Implement additional features, such as support for different integer ranges or input file formats.
