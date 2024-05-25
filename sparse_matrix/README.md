@@ -14,8 +14,8 @@ The project directory is organized as follows:
 │   └── src/
 │       └── sparse_matrix.py
 └── sample_inputs/
-    ├── matrix1.txt
-    └── matrix2.txt
+    ├── easy_sample_01_1.txt.txt
+    └── easy_sample_01_2.txt.txt
 ```
 
 - **code/src/**: Contains the implementation of the sparse matrix operations.
@@ -74,19 +74,21 @@ This example represents a 4x4 matrix with non-zero values at specific positions.
 **Addition:**
 
 ```sh
-python sparse_matrix.py add ../sample_inputs/matrix1.txt ../sample_inputs/matrix2.txt
+python sparse_matrix.py add ..\..\sample_inputs\easy_sample_01_1.txt ..\..\sample_inputs\easy_sample_01_2.txt
 ```
 
 **Subtraction:**
 
 ```sh
-python sparse_matrix.py subtract ../sample_inputs/matrix1.txt ../sample_inputs/matrix2.txt
+python sparse_matrix.py substract ..\..\sample_inputs\easy_sample_01_1.txt ..\..\sample_inputs\easy_sample_01_2.txt
+
 ```
 
 **Multiplication:**
 
 ```sh
-python sparse_matrix.py multiply ../sample_inputs/matrix1.txt ../sample_inputs/matrix2.txt
+python sparse_matrix.py multiply ..\..\sample_inputs\easy_sample_01_1.txt ..\..\sample_inputs\easy_sample_01_2.txt
+
 ```
 
 ### Error Handling
@@ -116,7 +118,7 @@ The `SparseMatrix` class provides the following methods:
 
 ## Sample Input Files
 
-Place your input files in the `sample_inputs` directory. Example files (`matrix1.txt`, `matrix2.txt`) are provided to get you started.
+Place your input files in the `sample_inputs` directory. Example files (`easy_sample_01_1.txt`, `easy_sample_01_2.txt`) are provided to get you started.
 
 ## License
 
