@@ -1,5 +1,3 @@
-import os
-
 class SparseMatrix:
     def __init__(self, file_path=None, num_rows=None, num_cols=None):
         """
